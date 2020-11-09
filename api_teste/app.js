@@ -15,7 +15,7 @@ ffmpeg.setFfmpegPath(ffmpegPath);
     body: fs.createReadStream(file),
     headers: {
         "Content-Type": "audio/ogg",
-        "Authorization": `Basic ${Buffer.from("apikey:7BWwaCIZrEWjb5NshVUz4bAS2KMZb7CKnWFUyjBl3bz0").toString("base64")}`
+        "Authorization": `Basic ${Buffer.from("apikey:").toString("base64")}`
     }
 }*/
 
